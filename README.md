@@ -1,5 +1,5 @@
 # Codesys Socket Server
-This project Implements a Socket Server in Codesys to communicte with socket clients over TCP. The sever Listens for client connections, accepts connections, reads data and send back responses over TCP. Any client regardless of its implementaion is able to connect to the server, send data and recieve responses
+This project Implements a Socket Server in Codesys to communicte with socket clients over TCP. The sever Listens for client connections, accepts connections, reads data and send back responses over TCP. Any client regardless of its implementaion is able to connect to the server, send data and recieve responses. The project uses the sysSocket2 Codesys Library for the implementation
 
 
 ### Requiremets
@@ -8,10 +8,10 @@ This project Implements a Socket Server in Codesys to communicte with socket cli
 
 
 ### Instructions
-PLC Side (Sockey Server)
+PLC Side (Socket Server)
 - Open the Codesys Project
-- Modify the ```sIPAddress``` paramter with the correct interface address on which you wish to bind the socket
-- Modify the ```wPort``` parameter with the correct port on which you wish your sever to listen for conneections
+- Modify the ```sIPAddress``` parameter with the correct interface address on which you wish to bind the socket
+- Modify the ```wPort``` parameter with the correct port on which you wish your server to listen for conneections
 - Update the Device with the correct controller/ device
 - Upload the project, and start the application, then set the ```xStart``` Parameter to True
 
